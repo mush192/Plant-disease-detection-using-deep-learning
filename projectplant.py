@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 BATCH_SIZE = 32
 IMAGE_SIZE = 256
 CHANNELS=3
-EPOCHS=50
+EPOCHS=25
 
 dataset = tf.keras.preprocessing.image_dataset_from_directory(
     "PlantVillage",
